@@ -1,0 +1,54 @@
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    flex-direction: column;
+
+    border-width: 10px;
+
+    background-color: #BDD8EC;
+
+}
+
+
+#SocialMedia{
+
+    display: flex;
+
+
+    justify-content: space-evenly;
+
+
+    align-items: center;
+    background-size: contain;
+    height: 100px;
+    width: 1000px;
+
+}
+
+
+.TextoFooter1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.TextoFooter2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.png {
+    width: 50px;
+    height: 50px;
+}
