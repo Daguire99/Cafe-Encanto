@@ -12,18 +12,44 @@ border: 1.5pc solid #182b4c;
 padding: 20px 20px 80s0px;
 }
 
-h1 {
-color: #2e8894;
+
+.tit_pri {
+
+    display: table-cell;
+    font-size: 2rem;
+    color: #182b4c;
+    margin: 0;
+    padding: 0 2rem;
+    vertical-align: middle;  
+    }
+
+
+
+.tit_sec p {
+
+display: table-cell;
+font-size: 1rem;
+margin: 0;
+padding: 0 2rem;
+vertical-align: middle;  
 }
+
 
 
 .Box {
 display: block;
 margin: auto;
-
-
 }
 
+.tit_ter {
+
+    display: table-cell;
+    font-size: 1.5rem;
+    color: #182b4c;
+    margin: 20px;
+    padding: 0 3rem;
+    vertical-align: middle;  
+}
 
 #one {
 display: inline-block;
