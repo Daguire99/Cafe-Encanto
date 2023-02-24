@@ -1,0 +1,46 @@
+
+main {
+width: auto;
+height: 720px;
+border: 2pc solid #182b4c;
+padding: 300px 35px;
+}
+
+h1 {
+color: #2e8894;
+}
+
+
+#one {
+    display: inline-block;
+background-color: #84b9cf;
+margin: 10px;
+width: 365px;
+height: 450px;
+}
+
+#two {
+   
+display: inline-block;
+background-color: #84b9cf;
+margin: 10px;
+width: 365px;
+height: 450px;
+    }
+
+ #three {
+    
+display: inline-block;
+background-color: #84b9cf;
+margin: 10px;
+width: 365px;
+height: 450px;
+}
+
+.block_coffeeteria {
+
+    background-color: #6ea66a;
+    margin: 5px;
+    padding: 20px;
+
+}
