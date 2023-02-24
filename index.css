@@ -34,6 +34,14 @@ padding: 0 2rem;
 vertical-align: middle;  
 }
 
+.text_align_justify {
+
+    padding: 8px;
+    margin: 25px;
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+}
 
 
 .Box {
