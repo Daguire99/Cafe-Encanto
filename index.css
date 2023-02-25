@@ -82,9 +82,65 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.banner__info{
+    max-width: 400px;
+    margin-top: 40px;
+    z-index: 2;
+}
+
 .seccion__banner h1{
     max-width: 400px;
     font-size: 50px;
     font-weight: 900;
     color: #14274f;
+}
+
+.seccion__banner h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: #127A95;
+    margin-top: -20px;
+}
+
+.seccion__banner p{
+    margin-top: 10px;
+}
+
+.seccion__banner input{
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background: #7DB166;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px -3px #2f311016;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.seccion__banner input:hover{
+    box-shadow: 1px 1px 30px -3px #2f311070;
+}
+
+.banner__img{
+    position: relative;
+}
+
+.banner__img  img{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 420px;
+    border-radius: 10px;
+}
+
+.banner__img:before,
+.banner__img:after{
+    width: 420px;
+    height: 420px;
+    background-color: #000000;
+    opacity: 0.9;
+    top:0;
+    left: 0;
 }
