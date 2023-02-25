@@ -1,6 +1,7 @@
 
 
 
+
 footer{
     display: flex;
     justify-content: center;
@@ -51,4 +52,100 @@ footer{
 .png {
     width: 50px;
     height: 50px;
+}
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+main {
+width: auto;
+height: 1010px;
+border: 1.5pc solid #182b4c;
+padding: 20px 20px 80s0px;
+}
+
+
+.tit_pri {
+
+    display: table-cell;
+    font-size: 2rem;
+    color: #182b4c;
+    margin: 0;
+    padding: 0 2rem;
+    vertical-align: middle;  
+    }
+
+
+
+.tit_sec p {
+
+display: table-cell;
+font-size: 1rem;
+margin: 0;
+padding: 0 2rem;
+vertical-align: middle;  
+}
+
+.text_align_justify {
+
+    padding: 8px;
+    margin: 25px;
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+}
+
+
+.Box {
+display: block;
+margin: auto;
+}
+
+.tit_ter {
+
+    display: table-cell;
+    font-size: 1.5rem;
+    color: #182b4c;
+    margin: 20px;
+    padding: 0 3rem;
+    vertical-align: middle;  
+}
+
+#one {
+display: inline-block;
+background-color: #84b9cf;
+margin: 30px;
+width: 365px;
+height: 450px;
+}
+
+#two {
+   
+display: inline-block;
+background-color: #84b9cf;
+margin: 20px;
+width: 365px;
+height: 450px;
+    }
+
+ #three {
+    
+display: inline-block;
+background-color: #84b9cf;
+margin: 20px;
+width: 365px;
+height: 450px;
+}
+
+.block_coffeeteria {
+
+    background-color: #6ea66a;
+    margin: 5px;
+    padding: 20px;
+
+
 }
