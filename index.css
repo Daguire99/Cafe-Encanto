@@ -67,6 +67,8 @@ nav ul li a:hover{
     transition: ease- 0.5s all;
 }
 
+/* ---- Banner ---- */
+
 .seccion__banner{
     width: 100%;
     padding-bottom: 60px;
@@ -133,14 +135,78 @@ nav ul li a:hover{
     right: 0px;
     width: 420px;
     border-radius: 10px;
+    object-fit: cover;
+    transition: transform 200ms;
 }
 
-.banner__img:before,
-.banner__img:after{
-    width: 420px;
-    height: 420px;
-    background-color: #000000;
-    opacity: 0.9;
-    top:0;
+.banner__img:hover img{
+    transform: scale(1.08);
+}
+
+.popup__container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
     left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.popup{
+    background-color: #ffff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.mostrar__popup{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+#whatsapp__popup{
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background: #7DB166;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px -3px #2f311016;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+#whatsapp__popup:hover{
+    box-shadow: 1px 1px 30px -3px #2f311070;
+}
+
+#cerrar__popup{
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px -3px #2f311016;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.popup h2{
+    margin: 0;
+}
+
+.popup p{
+    opacity: 0.7;
+    font-size: 15px;
 }
