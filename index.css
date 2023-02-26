@@ -54,6 +54,8 @@ footer{
     height: 50px;
 }
 
+/* AQUI INICIA EL BODY */
+
 * {
 box-sizing: border-box;
 padding: 0;
@@ -71,12 +73,12 @@ padding: 20px 20px 80s0px;
 
 .tit_pri {
 
-    display: table-cell;
-    font-size: 2rem;
-    color: #182b4c;
-    margin: 0;
-    padding: 0 2rem;
-    vertical-align: middle;  
+display: table-cell;
+font-size: 2rem;
+color: #182b4c;
+margin: 0;
+padding: 0 2rem;
+vertical-align: middle;  
     }
 
 
@@ -92,27 +94,29 @@ vertical-align: middle;
 
 .text_align_justify {
 
-    padding: 8px;
-    margin: 25px;
-    font-size: 1rem;
-    color: white;
-    text-align: justify;
+padding: 8px;
+margin: 25px;
+font-size: 1rem;
+color: white;
+text-align: justify;
 }
 
 
 .Box {
-display: block;
+display: flex;
+align-items: center;
+justify-content: center;
 margin: auto;
 }
 
 .tit_ter {
 
-    display: table-cell;
-    font-size: 1.5rem;
-    color: #182b4c;
-    margin: 20px;
-    padding: 0 3rem;
-    vertical-align: middle;  
+display: table-cell;
+font-size: 1.5rem;
+color: #182b4c;
+margin: 20px;
+padding: 0 3rem;
+vertical-align: middle;  
 }
 
 #one {
@@ -138,16 +142,20 @@ display: inline-block;
 background-color: #84b9cf;
 margin: 20px;
 width: 365px;
-height: 450px;
+height: auto;
 }
 
 .block_coffeeteria {
 
-    background-color: #6ea66a;
-    margin: 5px;
-    padding: 20px;
+display: block;
+background-color: transparent;
+margin: auto;
+padding: 10px;
 
 }
+
+/* AQUI TERMINA BODY */
+
 
 *{
     box-sizing: border-box;
