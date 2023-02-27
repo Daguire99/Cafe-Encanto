@@ -17,51 +17,64 @@
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="index.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Cafe Encanto</title>
 </head>
 <body>
     
-    <!--Header el cual tiene dos contenedores 1 para el logo y otro al menu de nav-->
-    <header>
-        <div class="contenedor__header">
-            <div class="logo">
-                <img src="media/Logo.png" alt="">
+        <!--Header el cual tiene dos contenedores 1 para el logo y otro al menu de nav-->
+        <header>
+            <div class="contenedor__header">
+                <div class="logo">
+                    <img src="media/Logo.png" alt="">
+                </div>
+                <div class="navegacion">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Nuestros Productos</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="navegacion">
-                <nav>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Nuestros Productos</a></li>
-                    </ul>
-                </nav>
+        </header>
+        <!--Fin del Header-->
+    
+        <!--Banner que va despues del header-->
+    
+        <div class="contenedor__banner">
+            <div class="seccion__banner">
+                <div class="banner__info">
+                    <h1>CAFE ENCANTO</h1>
+                    <h2>¡DELICIOSO!</h2>
+                    <P>Somos una cadena de cafeterías reconocidas por su calidad y buen ambiente a nivel regional, teniendo presencia en diferentes lugares de la región Colombiana.
+                        Con un equipo de trabajo sólido y profesional, brindando a nuestros CLIENTES el mejor lugar para disfrutar de la bebida más popular del mundo, el café, ofreciendo los Mejores productos y la más alta calidad de SERVICIO</P>
+                    <input id="abrir__popup" type="button" value="¡Saber más!">
+                </div>
+            </div>
+            <div class="banner__img">
+                <img src="media/Cafe__Banner.png" alt="">
             </div>
         </div>
-    </header>
-    !----Fin del Header-->
-
-<!--Banner que va despues del header-->
-
-    <div class="contenedor__banner">
-        <div class="seccion__banner">
-            <div class="banner__info">
-                <h1>CAFE ENCANTO</h1>
-                <h2>¡DELICIOSO!</h2>
-                <P>Somos una cadena de cafeterías reconocidas por su calidad y buen ambiente a nivel regional, teniendo presencia en diferentes lugares de la región Colombiana.
-                    Con un equipo de trabajo sólido y profesional, brindando a nuestros CLIENTES el mejor lugar para disfrutar de la bebida más popular del mundo, el café, ofreciendo los Mejores productos y la más alta calidad de SERVICIO</P>
-                <input id="abrir__popup" type="button" value="¡Saber más!">
+        <!--Fin Banner-->
+    
+        <!--Pop UP/Ventana Emergente-->
+        <div class="popup__container" id="popup__container">
+            <div class="popup">
+                <h2>¡Conoce nuestro aroma!</h2>
+                <p>
+                    Bienvenidos a Cafe Encanto, un espacio creado para los amantes del café de alta calidad y de las experiencias unicas. Cada taza de café que vendemos es el resultado de un proceso cuidados que comienza
+                    en la siembra y culmina en la taza de nuestros clientes. ¡Escribenos para saber más, te estamos esperando!
+                </p>
+                <a id="whatsapp__popup" href="https://wa.me/56923730047">Whatsapp</a>
+                <button id="cerrar__popup">Cerrar</button>
             </div>
         </div>
-        <div class="banner__img">
-            <img src="media/Cafe__Banner.png" alt="">
-        </div>
-    </div>
-    <!--Fin Banner-->
-
-
+        <script src="index.js"></script>
+    
+        
 
 
 
